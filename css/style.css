@@ -67,7 +67,7 @@ li {
   font-size: 24px;
   text-align: center;
   list-style-position: inside;
-  margin: 15px;
+  margin: 5px;
   padding-left: 50px;
   padding-right: 50px;
   line-height: 50px;
@@ -85,10 +85,10 @@ p {
 .lyn {
   color: black;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 25px;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -106,9 +106,10 @@ p {
   color: black;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 25px;
+  margin: 5px;
 }
 
 .col {
@@ -139,7 +140,7 @@ p {
 .col2 a,
 .col2 a:hover {
   color: rgb(64, 55, 125);
-  font-size: 20px;
+  font-size: 26px;
   text-decoration: none;
   font-family: "Lato", sans-serif;
   /* display: block; */
@@ -157,12 +158,16 @@ p {
   padding-top: 20px;
   align-items: center;
 }
+.grid img {
+  margin: auto;
+  width: 50%;
+}
 
 .contact-table,
 tbody {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  table-layout: auto;
 }
 
 td {
@@ -178,10 +183,14 @@ td .col2 {
   text-align: center;
 }
 
+.grid {
+  margin: 0px;
+}
+
 .topnav {
   background-color: #40377d;
   padding: 10px;
-  height: 60px;
+  height: auto;
 }
 
 .topnav img {
@@ -201,7 +210,7 @@ td .col2 {
   padding: 16px 16px;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 22px;
   vertical-align: middle;
 }
 
@@ -223,17 +232,13 @@ td .col2 {
   display: none;
 }
 
-.row {
-  display: flex;
-}
-
 .col {
   flex: 50%;
 }
 
-/* .col2 {
-  flex: 33%;
-} */
+.col2 {
+  flex: 50%;
+}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -255,6 +260,9 @@ td .col2 {
   .parallax {
     background-attachment: scroll;
   }
+  h1 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -263,6 +271,12 @@ td .col2 {
   }
   .topnav a.icon {
     float: right;
-    display: block;
+    display: inline-block;
+    color: #f2f2f2;
+  }
+  .title {
+    font-size: 100px;
+    padding-top: 40px;
+    margin-bottom: 40px;
   }
 }
