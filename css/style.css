@@ -90,6 +90,8 @@ p {
   padding-right: 20px;
   line-height: 50px;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .col p {
@@ -168,6 +170,14 @@ tbody {
   margin-left: auto;
   margin-right: auto;
   table-layout: auto;
+}
+
+.contact-img a {
+  font-size: 50%;
+}
+
+.contact-img {
+  margin-bottom: 30px;
 }
 
 table {
@@ -334,12 +344,10 @@ td .col2 {
   }
 }
 
-/* .carousel {
-  height: 300px;
-  margin: 0 auto;
-  padding: 0 1.25rem;
+#gallery .carousel {
+  margin-bottom: 150px;
   font-family: "Lato", sans-serif;
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -469,7 +477,8 @@ li {
 }
 
 .carousel__navigation-button {
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   width: 1.5rem;
   height: 1.5rem;
   background-color: #333;
