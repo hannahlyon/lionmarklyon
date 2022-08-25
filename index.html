@@ -23,6 +23,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -52,12 +53,13 @@
 
     <div class="section" id="about">
       <h1>ABOUT</h1>
-      <img src="img/mark.png" alt="Lion Mark Lyon" height="300px" />
+      <img id="headshot" src="img/mark.png" alt="Lion Mark Lyon" width="20%" />
+      <br />
       <p>
         Lion Mark has served our International Association of Lions Clubs in
         many capacities since 1996. A proud member of the Brookfield Lions Club,
         Lion Mark has a great appreciation for what our local Lions Clubs do
-        very day to improve the well-being of their communities through active
+        every day to improve the well-being of their communities through active
         service. Along his Lions journey, Lion Mark has benefited greatly from
         the guidance and support of many mentors. Because of them, he more fully
         understands the importance of life-long learning, the development of
@@ -66,6 +68,7 @@
         challenge of serving in roles of increasing responsibility within
         Lionism.
       </p>
+      <br />
       <p>
         Lion Mark views the opportunity to serve our Association as
         International Third Vice President with the same drive, determination
@@ -133,14 +136,14 @@
     <div class="section" id="recognitions">
       <h1>RECOGNITIONS</h1>
       <ul>
-        <li>Ambassador of Good Will Recipient</li>
-        <li>Progressive Melvin Jones Fellow</li>
-        <li>International Presidents' Medals</li>
-        <li>International Leadership Medal</li>
-        <li>International President’s Certificates of Appreciation</li>
-        <li>Connecticut Knight of the Blind</li>
-        <li>Connecticut Ambassador of Sight</li>
         <li>100% District Governor (2009-2010)</li>
+        <li>Connecticut Ambassador of Sight</li>
+        <li>Connecticut Knight of the Blind</li>
+        <li>International President’s Certificates of Appreciation</li>
+        <li>International Leadership Medal</li>
+        <li>International Presidents' Medals</li>
+        <li>Progressive Melvin Jones Fellow</li>
+        <li>Ambassador of Good Will Recipient</li>
       </ul>
     </div>
 
@@ -149,7 +152,7 @@
     <div class="section" id="experience">
       <h1>EXPERIENCE</h1>
       <img
-        src="img/presenting.png"
+        src="img/flag_new.jpeg"
         alt=""
         style="margin-bottom: 40px; width: 50%"
       />
@@ -241,6 +244,38 @@
 
     <div class="section" id="endorsements">
       <h1>ENDORSEMENTS</h1>
+      <table id="endorsement-col">
+        <tr>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+          <td>
+            <a href="letter-link" class="a-name">Name</a>
+            <p class="lions-title">Title</p>
+          </td>
+        </tr>
+      </table>
     </div>
 
     <div class="parallax"></div>
@@ -279,10 +314,10 @@
             <br />
             <p class="lyn">
               Lion Mark and Lion Lyn have been married for nearly 40 years, and
-              are the proud parent of three adult daughters. They are a
-              recognized part of their community, not just for their Lions
-              activities, but also for their past and present involvement in
-              local civic, church and school groups. Both are career-minded
+              are the proud parents of three adult daughters. A recognized part
+              of their community, not just for their Lions activities, Lion Mark
+              and Lion Lyn are also known for their past and present involvement
+              in local civic, church and school groups. Both are career-minded
               professionals – Lion Mark in legal and financial services and Lion
               Lyn in accounting and operations. In their occasional free
               moments, Lion Lyn enjoys reading, crafting and bird-watching,
@@ -293,12 +328,13 @@
         </tr>
         <tr>
           <td>
-            <p align="center">
+            <div id="map">
               <iframe
                 src="https://www.google.com/maps/d/embed?mid=1XEboADhqA-sR-v-NMA90m7EaE1CBCkrN&hl=en"
                 height="380"
               ></iframe>
-            </p>
+            </div>
+
             <br />
             <div
               class="fb-page"
@@ -329,7 +365,24 @@
     <div class="section" id="gallery">
       <h1>GALLERY</h1>
 
-      <section class="carousel" aria-label="Gallery">
+      <table class="photos">
+        <tr>
+          <td>
+            <a href="/img/image0.jpeg"></a>
+          </td>
+          <td>
+            <a href="/img/photo1.jpeg"></a>
+          </td>
+          <td>
+            <a href="/img/photo3.jpg"></a>
+          </td>
+          <td>
+            <a href="/img/photo4.jpeg"></a>
+          </td>
+        </tr>
+      </table>
+
+      <!-- <section class="carousel" aria-label="Gallery">
         <ol class="carousel__viewport">
           <li id="carousel__slide1" tabindex="0" class="carousel__slide">
             <img src="img/photo1.jpeg" alt="" />
@@ -368,6 +421,26 @@
             <a href="#carousel__slide3" class="carousel__prev"
               >Go to previous slide</a
             >
+            <a href="#carousel__slide5" class="carousel__next"
+              >Go to first slide</a
+            >
+          </li>
+          <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+            <img src="img/16574.png" alt="" />
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide4" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide6" class="carousel__next"
+              >Go to first slide</a
+            >
+          </li>
+          <li id="carousel__slide6" tabindex="0" class="carousel__slide">
+            <img src="img/19936.png" alt="" />
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide5" class="carousel__prev"
+              >Go to previous slide</a
+            >
             <a href="#carousel__slide1" class="carousel__next"
               >Go to first slide</a
             >
@@ -395,9 +468,19 @@
                 >Go to slide 4</a
               >
             </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide5" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide6" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
           </ol>
         </aside>
-      </section>
+      </section> -->
     </div>
 
     <div id="fb-root"></div>
