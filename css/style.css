@@ -70,7 +70,6 @@ li {
   /* text-align: center; */
   text-align: justify;
   text-justify: inter-word;
-  list-style-position: inside;
   margin: 5px;
   padding-left: 50px;
   padding-right: 50px;
@@ -121,6 +120,18 @@ p {
 #endorsement-col {
   table-layout: fixed;
   width: 100%;
+}
+
+.endorsement-col ul li a {
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: disc;
+  color: #333;
+}
+
+.endorsement-col ul li a:visited {
+  list-style-type: disc;
+  color: #333;
 }
 
 .col p {
@@ -247,11 +258,16 @@ tbody {
 }
 
 .md {
-  color: rgb(64, 55, 125);
+  color: #333;
   font-size: 18px;
+  list-style-type: circle;
   text-decoration: none;
   text-align: center;
   /* vertical-align: top; */
+}
+
+.subheader {
+  color: #40377d;
 }
 
 .endorsement-col {
@@ -305,7 +321,7 @@ td .col2 {
   padding: 16px 16px;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   vertical-align: middle;
 }
 
