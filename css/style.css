@@ -129,6 +129,10 @@ p {
   color: #333;
 }
 
+/* #endorsements {
+
+} */
+
 .sublist-letter {
   display: list-item;
   font-size: 14px;
@@ -231,10 +235,13 @@ tbody {
 .contact-img a {
   font-size: 50%;
   color: #40377d;
+  margin: 0px 100px;
+  /* display: inline-block; */
 }
 
 .contact-img {
   margin-bottom: 30px;
+  display: inline-block;
 }
 
 .name {
@@ -270,14 +277,23 @@ tbody {
 .md {
   color: #333;
   font-size: 18px;
-  list-style-type: circle;
   text-decoration: none;
   text-align: center;
+  align-items: center;
   /* vertical-align: top; */
+  margin-right: 10px;
+  line-height: 20px;
+  display: inline;
+}
+
+.new li {
+  display: inline;
 }
 
 .subheader {
   color: #40377d;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .endorsement-col {
